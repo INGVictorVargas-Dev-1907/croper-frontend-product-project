@@ -1,0 +1,26 @@
+.product-table {
+  font-size: 0.9rem;
+}
+
+.product-table th {
+  background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+  .product-table {
+    font-size: 0.8rem;
+  }
+  
+  .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+  }
+}
+
+.alert-fixed {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1050;
+  min-width: 300px;
+}
